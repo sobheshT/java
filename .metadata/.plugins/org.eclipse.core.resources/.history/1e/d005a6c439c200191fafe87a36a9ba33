@@ -1,0 +1,11 @@
+package comm.example;
+
+public class VectorDemo {
+ private List<String> vector;
+ public VectorDemo() {
+	 vector=new Vector<String>();
+ }
+	
+	
+	
+}

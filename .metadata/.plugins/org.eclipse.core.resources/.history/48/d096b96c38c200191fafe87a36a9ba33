@@ -1,0 +1,17 @@
+package comm.example;
+
+public class MapDemo {
+private Map<String.String> map;
+public MapDemo() {
+	super();
+	map =new HashMap<String,String>();
+}
+public void createMap() {
+	map.put("name","Rahul");
+	map.put("Address","Odisha")
+}
+
+
+
+
+}

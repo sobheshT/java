@@ -1,0 +1,12 @@
+package comm.example;
+import java.util.List;
+import java.util.Vector;
+public class VectorDemo {
+ private List<String> vector;
+ public VectorDemo() {
+	 vector=new Vector<String>();
+ }
+	
+	
+	
+}

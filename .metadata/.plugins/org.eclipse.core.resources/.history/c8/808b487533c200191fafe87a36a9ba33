@@ -1,0 +1,14 @@
+package comm.example;
+
+import java.util.Collection;
+
+public class ListDemo {
+	public static void main(String[] args) {
+		int arr[];
+		Collection<String> list=new ArrayList<String>();
+		list.add("John");
+		list.add("John");
+		System.out.println(list);
+	}
+
+}
