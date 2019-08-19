@@ -1,0 +1,10 @@
+package AccountMatching;
+
+public class Tester {
+	public static void main(String[] args) {
+		Account Account1=null;
+	    Account1= new Account();
+	    Account Account2=null;
+	    Account2= new Account();
+	}
+}

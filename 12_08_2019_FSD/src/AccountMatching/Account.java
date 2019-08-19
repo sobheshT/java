@@ -1,0 +1,27 @@
+package AccountMatching;
+
+public class Account {
+private int accountNumber;
+private String accountHolder;
+
+public int getAccountNumber() {
+	return accountNumber;
+}
+
+public void setAccountNumber(int accountNumber) {
+	this.accountNumber = accountNumber;
+}
+
+public String getAccountHolder() {
+	return accountHolder;
+}
+
+public void setAccountHolder(String accountHolder) {
+	this.accountHolder = accountHolder;
+}
+
+@Override
+public String toString() {
+	return "Account [accountNumber=" + accountNumber + ", accountHolder=" + accountHolder + "]";
+}
+}

@@ -1,0 +1,7 @@
+package comm.abstractSample1;
+
+public class Line extends Model {
+private int startPoint;
+private int EndPoint;
+
+}

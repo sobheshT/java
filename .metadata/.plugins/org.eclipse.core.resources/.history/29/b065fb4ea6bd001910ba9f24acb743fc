@@ -1,0 +1,9 @@
+package comm.sort;
+
+public class Sort {
+public static void main(String[] args) {
+	int arr[]= {
+			100,1,-20,30,0
+	};
+}
+}

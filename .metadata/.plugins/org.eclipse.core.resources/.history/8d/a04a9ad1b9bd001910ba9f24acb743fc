@@ -1,0 +1,12 @@
+package comm.innerClass;
+
+public class OuterClass {
+    private int x;
+    private int y;
+	public OuterClass() {
+		super();
+		this.x=x;
+		this.y=y;
+	}
+
+}

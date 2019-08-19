@@ -1,0 +1,23 @@
+package comm.sort;
+import java.util.*;
+
+
+public class Sort {
+public static void main(String[] args) {
+	Integer arr[]= {
+			100,1,-20,30,0
+	};
+	Arrays.sort(arr,Collections.reverseOrder());
+	
+	for (int i:arr) {
+		System.out.print(i+" ");
+	}
+	Scanner key=new Scanner(System.in);
+	System.out.println(key+"is found at index:"+search(arr,key));
+	//System.out.printf("Sorted Array:%s",Arrays.toString(arr));
+}
+
+}
+}
+
+}

@@ -1,0 +1,22 @@
+package comm.assignment2;
+
+public class Product {
+private int currentRate;
+private static int count =0;
+
+static {
+	count =0;
+}
+public Product() {
+	super();
+	count++;
+	System.out.println("no. of product"+ count);
+}
+public int getCurrentRate() {
+	return currentRate;
+}
+public void setCurrentRate(int currentRate) {
+	this.currentRate = currentRate;
+}
+
+}

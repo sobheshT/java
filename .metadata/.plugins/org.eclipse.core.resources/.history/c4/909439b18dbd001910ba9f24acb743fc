@@ -1,0 +1,18 @@
+package comm.interfaceSample;
+
+public class Monkey implements LivingThings{
+private String name;
+public Monkey() {
+	
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+@Override
+public void walk() {
+	
+}
+}

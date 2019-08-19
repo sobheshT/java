@@ -1,0 +1,7 @@
+package comm.interfaceSample;
+
+public interface LivingThings {
+public static String name = null;
+public void walk();
+
+}

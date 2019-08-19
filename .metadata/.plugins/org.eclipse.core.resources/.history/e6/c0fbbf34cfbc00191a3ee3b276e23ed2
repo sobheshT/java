@@ -1,0 +1,14 @@
+package comm.example.constructor;
+
+public class MyDate {
+	private int x;
+	private int y;
+	public MyDate() {
+		
+	}
+	public MyDate(int x) {
+		this.x=x;
+	}
+public MyDate(my)
+	
+}

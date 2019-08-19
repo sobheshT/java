@@ -1,0 +1,7 @@
+package comm.ArrayDemo;
+
+public class ArrayDemo {
+private Integer arr[];
+private Integer a = new Integer(10);
+private Integer a =10;
+}

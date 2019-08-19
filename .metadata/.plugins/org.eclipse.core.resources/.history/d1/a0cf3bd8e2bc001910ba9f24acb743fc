@@ -1,0 +1,6 @@
+package comm.Employee;
+
+public class PermanentEmployee extends Employee {
+private  int salary;
+
+}

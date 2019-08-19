@@ -1,0 +1,15 @@
+package comm.assignment2;
+
+import comm.staticexample.Account;
+
+
+	public class Tester {
+		public static void main(String[] args) {
+			Electronics e1 =new Electronics();
+			Tv t1=new Tv();
+			Book b1=new Book();
+	
+			
+		}
+		}
+

@@ -1,0 +1,9 @@
+package comm.constructor.client;
+
+import comm.constructor.MyDate;
+public class Tester {
+	public static void main(String[] args) {
+	MyDate myDate=null;
+	myDate=new MyDate();
+	System.out.println(myDate.setData());
+}}

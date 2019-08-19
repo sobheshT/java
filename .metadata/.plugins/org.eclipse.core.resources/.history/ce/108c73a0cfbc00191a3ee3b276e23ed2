@@ -1,0 +1,8 @@
+package comm.constructor.client;
+import comm.assignment.MyDate;
+import comm.constructor.*;
+public class Tester {
+	MyDate myDate=null;
+	myDate=new MyDate();
+	System.out.println(myDate.setDay(32));
+}

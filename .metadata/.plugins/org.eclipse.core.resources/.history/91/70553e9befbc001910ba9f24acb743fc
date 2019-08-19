@@ -1,0 +1,15 @@
+package comm.assignment2;
+
+public class Product {
+private int currentRate;
+private static int count =0;
+
+static {
+	count =1;
+}
+public Product() {
+	super();
+	count++;
+	System.out.println("no. of product"+count);
+}
+}

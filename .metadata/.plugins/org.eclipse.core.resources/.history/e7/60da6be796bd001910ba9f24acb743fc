@@ -1,0 +1,5 @@
+package comm.ArrayDemo;
+
+public class ArrayDemo {
+private Integer arr[];
+}

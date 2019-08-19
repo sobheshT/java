@@ -1,0 +1,14 @@
+package comm.stack;
+
+public class Tester {
+	public static void main(String[] args) {
+		MyStack myStack=new MyStack(5);
+		myStack.push("sobhesh");
+		myStack.push("sonali");
+		myStack.push("deepak");
+		myStack.push("subham");
+		myStack.push("sai");
+		System.out.println(myStack.size());
+		//System.out.println(myStack.pop());
+	}
+}

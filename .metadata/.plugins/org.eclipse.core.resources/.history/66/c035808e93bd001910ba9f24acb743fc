@@ -1,0 +1,5 @@
+package comm.singeltonpattern;
+
+public class Messaging {
+
+}

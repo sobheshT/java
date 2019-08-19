@@ -1,0 +1,12 @@
+package comm.assignment2;
+
+public class Electronics extends Product {
+ private int mfdYear;
+
+public Electronics() {
+	super();
+	this.mfdYear=mfdyear;
+	// TODO Auto-generated constructor stub
+}
+	
+}

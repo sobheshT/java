@@ -1,0 +1,21 @@
+package comm.stack;
+
+public class MyStack {
+char arr[];
+private int index=0;
+private int size;
+
+public MyStack(int size) {
+	this.size=size;
+	arr=new char[size];
+	
+}
+
+
+public char push(char element) {
+	arr[index]=element;
+	index++;
+	return element;
+}
+
+}

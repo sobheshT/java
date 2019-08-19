@@ -1,0 +1,19 @@
+package comm.Employee;
+
+public class ContractualEmployee extends Employee {
+	private  int ratePerHour;
+	public ContractualEmployee() {
+		super();
+		
+	}
+	public ContractualEmployee(int salary) {
+		super();
+		this.ratePerHour=ratePerHour;
+	}
+	@Override
+	  protected  getDetails() {
+		
+		return super.getDetails()+"ratePerHour:" + ratePerHour ;
+		
+	}
+}

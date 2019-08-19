@@ -1,0 +1,6 @@
+package comm.assignment2;
+
+public class Electronics extends Product {
+ private int mfdYear;
+	Product p1= new Product();
+}

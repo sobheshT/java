@@ -1,0 +1,6 @@
+package comm.stack;
+
+public class MyStack {
+char arr[];
+
+}

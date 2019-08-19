@@ -1,0 +1,17 @@
+package comm.interfaceSample;
+
+public class Tester1 {
+public static void main(String[] args) {
+	LivingThings livingThings=new Monkey("Tom");
+	livingThings.walk();
+	Dog dog=new Dog(name"A",breed"B");
+	dog.createLivingThings();
+	new LivingThings() {
+		@Override
+		publuc void walk() {
+			System.out.println("Dog Name:"+dog.getName()+"Breed Name:"+dog.getBreed());
+		}
+	};
+	
+}
+}
